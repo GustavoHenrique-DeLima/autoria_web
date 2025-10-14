@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .flex-container{
+            display: flex;
+            background-color: #e75b57;
+            height: 300px;
+            width: 400px;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .lado{
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+           
+        }
+        .direito{
+            align-items: flex-end;
+        }
+        .barra{
+            width: 180px;
+            height: 30px;
+            background-color: yellow;
+        }
+
+        
+        
+    </style>
+</head>
+<body>
+    <div class="flex-container">
+        <div class="lado direito">
+            <div class="barra"></div>
+            <div class="barra"></div>
+            <div class="barra"></div>
+        </div>
+        <div class="lado esquerdo">
+            <div class="barra"></div>
+            <div class="barra"></div>
+            <div class="barra"></div>
+        </div>
+    </div>
+</body>
+</html>
